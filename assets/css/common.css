@@ -1,0 +1,61 @@
+
+
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    margin: -1px;
+}
+.sc-widget .link-more::after,
+.sc-widget .link-more::before,
+#footer .notice-area .link-all::after,
+.sc-widget .ico-play::before,
+.sc-widget .vibe-box .btn-refresh::after,
+.sc-widget .vibe-box .ico-vibe,
+.sc-widget .link-search .ico-search,
+.sc-widget .papago-module .ico-papago,
+.sc-widget .papago-box::before,
+.sc-stock .stock-item .type-more::after,
+.sc-stock .stock-item .ico-climb,
+.sc-stock .stock-item .ico-status,
+.sc-stock .stock-gap .ico-status,
+.sc-stock .header-aside .btn-refresh::before,
+.sc-stock .group-header .btn-info::before,
+.sc-daily .group-header .link-daily::before,
+.sc-feed .feed-bottom-area .btn-next::before,
+.sc-shopping .group-control .btn-next::before,
+.sc-shopping .group-control .btn-prev::before,
+.sc-login .link-login::before,
+.sc-news .group-control .btn-prev::before,
+.sc-news .group-control .btn-next::before,
+.sc-news .group-control .set-area .btn-list::before,
+.sc-news .group-control .set-area .btn-thumb::before,
+.sc-news .group-issue .btn-all::after,
+#header .util-area > *::before,
+#header .group-nav [class*="ico-"]::before,
+#header .group-nav [class*="ico-"]::after,
+#header .group-search .btn-auto::before,
+#header .group-search .btn-keyboard::before{
+    background-image: url(../img/download-2.png);
+    background-size:  444px;
+    background-repeat: no-repeat;
+
+}
+
+
+
+.sc-shopping .shop-area [class*="ico-"]::before{
+    background-image: url(../img/download-3.png);
+    background-size: 159px;
+    background-repeat: no-repeat;
+
+}
+
+.sc-daily .info-left-area .ico-weather,
+.sc-daily .weather-item .ico-weather::before{
+background-image: url(../img/download-6.png);
+background-size: 641px;
+background-repeat: no-repeat;
+}
